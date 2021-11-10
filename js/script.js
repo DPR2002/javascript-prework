@@ -28,16 +28,14 @@ if (randomNumber == '1') {
 if (
  computerMove =='kamień' && playerMove =='papier' ||
  computerMove =='papier' && playerMove =='nożyce' ||
- computerMove =='nożyce' && playerMove =='kamień' ||
- computerMove =='papier' && playerMove =='nożyce'
+ computerMove =='nożyce' && playerMove =='kamień'
 ) {
-  printMessage ('Wygrałeś!');
+  printMessage('Wygrałeś!');
 } else if (computerMove == playerMove) {
-  printMessage ('Przegrałeś!');
+  printMessage('Remis!');
 } else {
-  printMessage ('Remis!')
+  printMessage('Przegrałeś!')
 }
 
 printMessage('Mój ruch:' + computerMove);
 printMessage('Twój ruch:' + playerMove);
-}
