@@ -28,3 +28,16 @@ if (randomNumber == '1') {
 if (
  computerMove =='kamień' && playerMove =='papier' ||
  computerMove =='papier' && playerMove =='nożyce' ||
+ computerMove =='nożyce' && playerMove =='kamień' ||
+ computerMove =='papier' && playerMove =='nożyce'
+) {
+  printMessage ('Wygrałeś!');
+} else if (computerMove == playerMove) {
+  printMessage ('Przegrałeś!');
+} else {
+  printMessage ('Remis!')
+}
+
+printMessage('Mój ruch:' + computerMove);
+printMessage('Twój ruch:' + playerMove);
+}
