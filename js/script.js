@@ -22,7 +22,7 @@ function playGame(playerInput=p){
       argComputerMove  =='papier' && argPlayerMove =='nożyce' ||
       argComputerMove  =='nożyce' && argPlayerMove =='kamień'
     ) {
-      printMessage('Wygrałeś!');
+      printMessage('Wygrałeś!');e
     } else if (argComputerMove == argPlayerMove) {
       printMessage('Remis!');
     } else {
