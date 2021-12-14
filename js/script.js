@@ -1,4 +1,5 @@
-function playGame(playerInput=p){
+function playGame(playerInput){
+clearMessages();
   function getMoveName(argMoveId){
     
     if(argMoveId == 1){
@@ -22,7 +23,7 @@ function playGame(playerInput=p){
       argComputerMove  =='papier' && argPlayerMove =='nożyce' ||
       argComputerMove  =='nożyce' && argPlayerMove =='kamień'
     ) {
-      printMessage('Wygrałeś!');e
+      printMessage('Wygrałeś!');
     } else if (argComputerMove == argPlayerMove) {
       printMessage('Remis!');
     } else {
