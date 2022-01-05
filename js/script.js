@@ -1,10 +1,8 @@
-const gameFunction = function(){
-}
 
 const playGame = function(playerInput){
   clearMessages();
 
-  function getMoveName(argMoveId){
+  const getMoveName = function(argMoveId){
 
     if(argMoveId == 1){
       return 'kamień';
@@ -34,7 +32,6 @@ const playGame = function(playerInput){
       printMessage('Przegrałeś!')
     }
   }
-
 
   const randomNumber = Math.floor(Math.random() * 3 + 1);
 
