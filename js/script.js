@@ -1,4 +1,3 @@
-
 const playGame = function(playerInput){
   clearMessages();
 
