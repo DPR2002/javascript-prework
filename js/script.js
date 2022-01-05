@@ -17,7 +17,7 @@ const playGame = function(playerInput){
     return 'nieznany ruch';
   }
 
-  function displayResult(argComputerMove, argPlayerMove){
+  const displayResult = function(argComputerMove, argPlayerMove){
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
     if (
       argComputerMove  =='kamień' && argPlayerMove =='papier' ||
